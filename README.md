@@ -1,1 +1,3 @@
-# simple_shell
+ALX PROJECT:
+Collaboration : 0x16. C - Simple Shell
+BADAR BENAMI & KAOUTAR BENNASSAR.
