@@ -6,7 +6,7 @@
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_errputs --- The output of this function is an input string.
+ * ft_errputs - The output of this function is an input string.
  * @str: the text to be printed.
  *
  * Return: Nothing at all.
@@ -26,7 +26,7 @@ a++;
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_errputchar-The character c is written to stderr by this function.
+ * ft_errputchar - The character c is written to stderr by this function.
  * @c: To print this character.
  *
  * Return: Regarding accomplishment 1.
@@ -49,7 +49,7 @@ return (1);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_putfd-The char c is written to the supplied fd by this function.
+ * ft_putfd - The char c is written to the supplied fd by this function.
  * @c: This char to print.
  * @fd: To write to, use this file descriptor.
  *
@@ -73,7 +73,7 @@ return (1);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_putsfd --- The output of this function is an input string.
+ * ft_putsfd - The output of this function is an input string.
  * @str: this string has to be printed.
  * @fd: write to this file descriptor.
  *

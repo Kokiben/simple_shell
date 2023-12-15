@@ -6,7 +6,7 @@
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_myexit --- This feature leaves the shell.
+ * ft_myexit - This feature leaves the shell.
  * @info: this structure that might support arguments. used for upkeep
  * constant prototype function.
  * Return: exits that have a specified status.
@@ -87,7 +87,7 @@ return (0);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_myhelp --- This function modifies the process's current directory.
+ * ft_myhelp - This function modifies the process's current directory.
  * @info: this structure that might support arguments. used for upkeep.
  * constant: prototype function.
  * Return: Always zero.

@@ -6,7 +6,7 @@
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_myenv --- The current environment is printed using this function.
+ * ft_myenv - The current environment is printed using this function.
  * @info: this structure that might support arguments.
  *        used to keep the function prototype consistent.
  * Return: Always zero.
@@ -19,7 +19,7 @@ return (0);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_getenv --- This function retrieves an environment variable's value.
+ * ft_getenv - This function retrieves an environment variable's value.
  * @info: this structure that might support arguments. used for upkeep.
  * @name: this env variable name.
  *
@@ -42,7 +42,7 @@ return (NULL);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_mysetenv---this function sets a new environment variable's initial value,
+ * ft_mysetenv - this function sets a new environment variable's initial value,
  *             or modifies an already-existing one.
  * @info: this structure that might support arguments. used to keep
  *        the function prototype consistent.
@@ -62,7 +62,7 @@ return (1);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_myunsetenv --- An environment variable is removed by this function.
+ * ft_myunsetenv - An environment variable is removed by this function.
  * @info: tthis structure that might support arguments.
  *        used to keep the function prototype consistent.
  * Return: Always zero.
@@ -84,7 +84,7 @@ return (0);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_populate_env_list --- This function fills the environment linked list.
+ * ft_populate_env_list - This function fills the environment linked list.
  * @info: this structure that might support arguments.
  *          used to keep the function prototype consistent.
  * Return: Always zero.

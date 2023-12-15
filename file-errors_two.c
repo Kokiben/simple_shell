@@ -35,7 +35,7 @@ return (result);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_print_error --- An error message is printed by this function.
+ * ft_print_error - An error message is printed by this function.
  * @info: this argument & info struct return.
  * @estr:this string with the designated error type.
  * Return: 0 If there are no numbers in the string, the converted nmbr
@@ -94,7 +94,7 @@ return (count);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_convert_number-This function is an itoa clone, a converter.
+ * ft_convert_number - This function is an itoa clone, a converter.
  * @nbr: this nmbr.
  * @base: This base.
  * @flags: This argument raises red flags.
@@ -132,7 +132,7 @@ return (ptr);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_remove_comments-This function substitutes the first instance of '#' with '\0'
+ * ft_remove_comments - This function substitutes the first instance of '#' with '\0'
  * @buff: The address of this string needs to be updated.
  *
  * Return: Always zero.

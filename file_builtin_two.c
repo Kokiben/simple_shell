@@ -3,7 +3,7 @@
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_myhistory --- This function shows the history list line by line,
+ * ft_myhistory - This function shows the history list line by line,
  * command by command, with line numbers beginning at zero.
  * @info: Structure that might support arguments,
  *        used to keep the function prototype consistent.
@@ -17,7 +17,7 @@ return (0);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_unset_alias ---This function sets the string alias.
+ * ft_unset_alias - This function sets the string alias.
  * @info: this structure of parameters.
  * @str: this alias for a string.
  *
@@ -25,23 +25,23 @@ return (0);
  */
 int ft_unset_alias(inf_y *info, char *str)
 {
-	char *ptr, c;
-	int r;
+char *ptr, c;
+int r;
 
-	ptr = ft_strchr(str, '=');
-	if (!ptr)
-		return (1);
-	c = *ptr;
-	*ptr = 0;
-	r = ft_delete_node_at_index(&(info->alias),
-			ft_get_node_index(info->alias, ft_node_starts_with(info->alias, str, -1)));
-	*ptr = c;
-	return (r);
+ptr = ft_strchr(str, '=');
+if (!ptr)
+return (1);
+c = *ptr;
+*ptr = 0;
+r = ft_delete_node_at_index(&(info->alias),
+ft_get_node_index(info->alias, ft_node_starts_with(info->alias, str, -1)));
+*ptr = c;
+return (r);
 }
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_set_alias --- This function sets the string alias.
+ * ft_set_alias - This function sets the string alias.
  * @info: this structure of parameters.
  * @str: this alias for a string.
  *
@@ -62,7 +62,7 @@ return (ft_add_node_end(&(info->alias), str, 0) == NULL);
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * ft_print_alias --- An alias string is printed by this function.
+ * ft_print_alias - An alias string is printed by this function.
  * @node: this node alias.
  *
  * Return:Always one on mistake, zero on success.

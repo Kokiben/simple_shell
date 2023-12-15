@@ -6,7 +6,7 @@
 
 /**
  * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * main --- this place of entrance.
+ * main - this place of entrance.
  * @arc:this debate matters.
  * @arv: this vector of arguments.
  *
