@@ -1,12 +1,7 @@
 #include "Shell.H"
 
-/*
- * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- */
-
 /**
- * Collaboration_Simple Shell: Badar Benami & Kaoutar Bennassar.
- * main - this place of entrance.
+ * main - Entry pt.
  * @arc:this debate matters.
  * @arv: this vector of arguments.
  *
